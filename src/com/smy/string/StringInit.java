@@ -1,7 +1,7 @@
 package com.smy.string; 
 
 /** 
- * 字符串比较：equals()和==的区别 
+ * 脳脰路没麓庐卤脠陆脧拢潞equals()潞脥==碌脛脟酶卤冒 
  * @author smy
  * 
  */
@@ -16,12 +16,12 @@ public class StringInit {
         String s3 = new String("hello");  
         String s4 = "hello world";  
           
-        System.out.println(s.equals(s1));;  
-        System.out.println(s1.equals(s2));  
-        System.out.println(s1.equals(s3));  
+        System.out.println(s.equals(s1));  //true
+        System.out.println(s1.equals(s2));  //true
+        System.out.println(s1.equals(s3));  //false
         System.out.println("------------------");  
-        System.out.println(s == s1);  
-        System.out.println(s == s3);  
-        System.out.println(s == s4);  
+        System.out.println(s == s1);  //false
+        System.out.println(s == s3);  //false
+        System.out.println(s == s4);  //true
     }  
 }  
